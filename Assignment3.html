@@ -140,9 +140,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="dropdown-item" href="./Assignment3.html" rel="" target="">
  <span class="dropdown-text">Twitter data about President Biden and Xi summit in Novemeber 2021</span></a>
   </li>  
-        <li class="dropdown-header">Assignment6.qmd</li>
+        <li>
+    <a class="dropdown-item" href="./Assignment6.html" rel="" target="">
+ <span class="dropdown-text">Assignment6.html</span></a>
+  </li>  
         <li class="dropdown-header">Assignment7.qmd</li>
         <li class="dropdown-header">Assignment8.qmd</li>
+        <li>
+    <a class="dropdown-item" href="./Final Project.html" rel="" target="">
+ <span class="dropdown-text">Final Project.html</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -150,7 +157,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">EPPS6356</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-epps6356">    
-        <li class="dropdown-header">AssignmentDV1.qmd</li>
+        <li>
+    <a class="dropdown-item" href="./AssignmentDV1.html" rel="" target="">
+ <span class="dropdown-text">Assignment 1</span></a>
+  </li>  
         <li class="dropdown-header">AssignmentDV2.qmd</li>
         <li class="dropdown-header">AssignmentDV3.qmd</li>
         <li class="dropdown-header">AssignmentDV4.qmd</li>
@@ -232,7 +242,7 @@ dttm  (4): created_at, quoted_created_at, retweet_created_at, account_create...
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">View</span>(summit)</span>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#View(summit)</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>sum_twt <span class="ot">=</span> summit<span class="sc">$</span>text</span>
 <span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>toks <span class="ot">=</span> <span class="fu">tokens</span>(sum_twt)</span>
@@ -401,6 +411,8 @@ Warning: 'kwic.corpus()' is deprecated. Use 'tokens()' first.</code></pre>
 <p><img src="Assignment3_files/figure-html/unnamed-chunk-1-6.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>code-fold: true<br>
+code-summary: “Show the code”</p>
 
 
 
